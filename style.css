@@ -36,3 +36,17 @@ footer>a {
 .card-text {
     color: #000000;
 }
+
+.titulo_tutoriales {
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+.formulario {
+    max-width: 600px;
+    width: 100%;
+}
+
+.formulario_texto {
+    color: #ffffffcb;
+}
