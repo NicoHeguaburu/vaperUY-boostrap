@@ -50,3 +50,9 @@ footer>a {
 .formulario_texto {
     color: #ffffffcb;
 }
+
+.enviar {
+    color: #ffffff;
+    background-color: green;
+    border-color: darkgreen;
+}
