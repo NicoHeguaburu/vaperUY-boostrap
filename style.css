@@ -1,0 +1,38 @@
+body {
+    background-color: #0c0c22;
+}
+
+nav {
+    background-color: #00001a;
+}
+
+.nav_h1 {
+    color: rgb(216, 0, 216);
+}
+
+.CostumNavbarDropdown {
+    background-color: #32314e;
+    color: aliceblue;
+}
+
+footer {
+    background-color: #00001a;
+    height: 50px;
+    color: aliceblue;
+}
+
+footer>a {
+    color: aliceblue;
+}
+
+.card-body {
+    background-color: #aaa6ca;
+}
+
+.card-title {
+    color: #000000;
+}
+
+.card-text {
+    color: #000000;
+}
