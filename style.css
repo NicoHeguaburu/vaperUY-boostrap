@@ -55,4 +55,5 @@ footer>a {
     color: #ffffff;
     background-color: green;
     border-color: darkgreen;
+    max-width: 600px;
 }
