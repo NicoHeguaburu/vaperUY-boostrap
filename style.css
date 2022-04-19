@@ -21,10 +21,6 @@ footer {
     color: aliceblue;
 }
 
-footer>a {
-    color: aliceblue;
-}
-
 .card-body {
     background-color: #aaa6ca;
 }
@@ -56,4 +52,22 @@ footer>a {
     background-color: green;
     border-color: darkgreen;
     max-width: 600px;
+}
+
+footer>a {
+    color: aliceblue;
+}
+
+footer>a:hover {
+    color: #32314e;
+    transition: color 1s;
+}
+
+p>small {
+    color: gray;
+}
+
+p>small:hover {
+    color: #000000;
+    transition: color 1s;
 }
