@@ -1,0 +1,81 @@
+// variables
+$c-1: #0c0c22;
+$c-2: #00001a;
+$c-3: #d800d8;
+$c-4: #32314e;
+$c-5: #aaa6ca;
+$c-6: #000000;
+$c-7: #ffffff;
+$c-8: #ffffffcb;
+body {
+    background-color: $c-1;
+}
+
+nav {
+    background-color: $c-2;
+}
+
+.nav_h1 {
+    color: $c-3;
+}
+
+.CostumNavbarDropdown {
+    background-color: $c-4;
+    color: aliceblue;
+}
+
+footer {
+    background-color: $c-2;
+    height: 50px;
+    color: aliceblue;
+}
+
+.card-body {
+    background-color: $c-5;
+}
+
+.card-title {
+    color: $c-6;
+}
+
+.card-text {
+    color: $c-6;
+}
+
+.tituli_tutoriales {
+    color: $c-7;
+    font-size: 1.2rem;
+}
+
+.formulario {
+    max-width: 600px;
+    width: 100%;
+}
+
+.formulario_texto {
+    color: $c-8;
+}
+
+.enviar {
+    color: $c-7;
+    background-color: green;
+    border-color: darkgreen;
+}
+
+footer>a {
+    color: aliceblue;
+}
+
+footer>a:hover {
+    color: $c-4;
+    transition: color 1s;
+}
+
+p>small {
+    color: gray;
+}
+
+p>small:hover {
+    color: $c-6;
+    transition: color 1s;
+}
