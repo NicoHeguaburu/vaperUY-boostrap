@@ -1,49 +1,47 @@
-// variables
-$c-1: #0c0c22;
-$c-2: #00001a;
-$c-3: #d800d8;
-$c-4: #32314e;
-$c-5: #aaa6ca;
-$c-6: #000000;
-$c-7: #ffffff;
-$c-8: #ffffffcb;
+// map
+$colores: ( c-1: #0c0c22, c-2: #00001a, c-3: #d800d8, c-4: #32314e, c-5: #aaa6ca, c-6: #000000, c-7: #ffffff, c-8: #ffffffcb);
+// mixins
+@mixin color ($color) {
+    color: $color;
+}
+
 body {
-    background-color: $c-1;
+    background-color: map-get($colores, c-1);
 }
 
 nav {
-    background-color: $c-2;
+    background-color: map-get($colores, c-2);
 }
 
 .nav_h1 {
-    color: $c-3;
+    color: map-get($colores, c-3);
 }
 
 .CostumNavbarDropdown {
-    background-color: $c-4;
-    color: aliceblue;
+    background-color: map-get($colores, c-4);
+    @include color(aliceblue)
 }
 
 footer {
-    background-color: $c-2;
+    @extend nav;
     height: 50px;
-    color: aliceblue;
+    @include color(aliceblue)
 }
 
 .card-body {
-    background-color: $c-5;
+    background-color: map-get($colores, c-5);
 }
 
 .card-title {
-    color: $c-6;
+    color: map-get($colores, c-6);
 }
 
 .card-text {
-    color: $c-6;
+    color: map-get($colores, c-6);
 }
 
 .tituli_tutoriales {
-    color: $c-7;
+    color: map-get($colores, c-7);
     font-size: 1.2rem;
 }
 
@@ -53,29 +51,33 @@ footer {
 }
 
 .formulario_texto {
-    color: $c-8;
+    color: map-get($colores, c-8);
 }
 
 .enviar {
-    color: $c-7;
+    color: map-get($colores, c-8);
     background-color: green;
     border-color: darkgreen;
 }
 
 footer>a {
-    color: aliceblue;
+    @include color(aliceblue)
 }
 
 footer>a:hover {
-    color: $c-4;
+    color: map-get($colores, c-4);
     transition: color 1s;
 }
 
 p>small {
-    color: gray;
+    @include color(gray)
 }
 
 p>small:hover {
-    color: $c-6;
+    color: map-get($colores, c-6);
     transition: color 1s;
+}
+
+h1 {
+    @include color(#000000)
 }

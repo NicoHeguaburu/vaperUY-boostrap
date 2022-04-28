@@ -1,7 +1,7 @@
 body {
   background-color: #0c0c22; }
 
-nav {
+nav, footer {
   background-color: #00001a; }
 
 .nav_h1 {
@@ -12,7 +12,6 @@ nav {
   color: aliceblue; }
 
 footer {
-  background-color: #00001a;
   height: 50px;
   color: aliceblue; }
 
@@ -37,7 +36,7 @@ footer {
   color: #ffffffcb; }
 
 .enviar {
-  color: #ffffff;
+  color: #ffffffcb;
   background-color: green;
   border-color: darkgreen; }
 
@@ -54,3 +53,6 @@ p > small {
 p > small:hover {
   color: #000000;
   transition: color 1s; }
+
+h1 {
+  color: #000000; }
