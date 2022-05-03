@@ -58,6 +58,7 @@ footer {
     color: map-get($colores, c-8);
     background-color: green;
     border-color: darkgreen;
+    max-width: 595px;
 }
 
 footer>a {
@@ -79,5 +80,5 @@ p>small:hover {
 }
 
 h1 {
-    @include color(#000000)
+    @include color(#FFFFFF)
 }
