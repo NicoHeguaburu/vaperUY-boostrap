@@ -1,0 +1,59 @@
+body {
+  background-color: #0c0c22; }
+
+nav, footer {
+  background-color: #00001a; }
+
+.nav_h1 {
+  color: #d800d8; }
+
+.CostumNavbarDropdown {
+  background-color: #32314e;
+  color: aliceblue; }
+
+footer {
+  height: 50px;
+  color: aliceblue; }
+
+.card-body {
+  background-color: #aaa6ca; }
+
+.card-title {
+  color: #000000; }
+
+.card-text {
+  color: #000000; }
+
+.tituli_tutoriales {
+  color: #ffffff;
+  font-size: 1.2rem; }
+
+.formulario {
+  max-width: 600px;
+  width: 100%; }
+
+.formulario_texto {
+  color: #ffffffcb; }
+
+.enviar {
+  color: #ffffffcb;
+  background-color: green;
+  border-color: darkgreen;
+  max-width: 595px; }
+
+footer > a {
+  color: aliceblue; }
+
+footer > a:hover {
+  color: #32314e;
+  transition: color 1s; }
+
+p > small {
+  color: gray; }
+
+p > small:hover {
+  color: #000000;
+  transition: color 1s; }
+
+h1 {
+  color: #FFFFFF; }
